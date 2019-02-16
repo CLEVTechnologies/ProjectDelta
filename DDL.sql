@@ -1,0 +1,16 @@
+
+REATE TABLE Person (
+person_id INT AUTO_INCREMENT,
+first_name VARCHAR(20) NOT NULL,
+last_name VARCHAR(20) NOT NULL,
+nickname VARCHAR(20) NOT NULL,
+sex CHAR(1) NOT NULL,
+phone VARCHAR(15) NOT NULL,
+city VARCHAR(20) NOT NULL,
+country VARCHAR(20) NOT NULL,
+email VARCHAR(30) NOT NULL,
+initial_date DATE NOT NULL,
+area VARCHAR(30) NOT NULL,
+enCurso BIT NOT NULL,
+PRIMARY KEY(person_id)
+);
