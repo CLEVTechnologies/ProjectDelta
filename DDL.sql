@@ -1,3 +1,4 @@
+BEGIN
 
 REATE TABLE Person (
 person_id INT AUTO_INCREMENT,
@@ -10,7 +11,15 @@ city VARCHAR(20) NOT NULL,
 country VARCHAR(20) NOT NULL,
 email VARCHAR(30) NOT NULL,
 initial_date DATE NOT NULL,
-area VARCHAR(30) NOT NULL,
-enCurso BIT NOT NULL,
 PRIMARY KEY(person_id)
+);
+
+CREATE TABLE Project(
+project_id INT AUTO_INCREMENT,
+name VARCHAR(40) NOT NULL,
+description VARCHAR(200) NOT NULL,
+area VARCHAR(30) NOT NULL,
+inCourse BIT NOT NULL,
+initial_date DATE NOT NULL,
+PRIMARY KEY(project_id)
 );
