@@ -23,3 +23,8 @@ inCourse BIT NOT NULL,
 initial_date DATE NOT NULL,
 PRIMARY KEY(project_id)
 );
+
+CREATE TABLE Ability(
+ability_id INT AUTO_INCREMENT,
+name VARCHAR(40) NOT NULL,
+);
